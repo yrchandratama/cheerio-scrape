@@ -11,7 +11,7 @@ npm install
 There are 2 main functions:
 1. Fetch all categories based on city
 ```
-http://localhost:3000/categories?city=*city*
+http://localhost:3000/categories?city=
 ```
 
 For example:
@@ -21,7 +21,7 @@ http://localhost:3000/categories?city=kuala-lumpur
 
 2. Fetch all merchants based on city, category and category_ids
 ```
-http://localhost:3000/merchants?city=*city*&category=*category*&categoryId=*category_ids*
+http://localhost:3000/merchants?city=*&category=&categoryId=
 ```
 
 For example:
